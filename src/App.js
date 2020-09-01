@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import List from './components/List'
+import Cards from './components/Cards'
+import imgYerevan from './img/yerevan.jpg'
+import imgTbilisi from './img/tbilisi.jpg'
+import imgParis from './img/paris.jpg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <List headline="List of countries"/>
+    <Cards capital="Yerevan" name="Armenia" img={imgYerevan}/>
+    <Cards capital="Tbilisi" name="Georgia" img={imgTbilisi}/>
+    <Cards capital="Paris" name="France" img={imgParis}/>
     </div>
   );
 }
