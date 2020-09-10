@@ -21,20 +21,20 @@ function App() {
       <List headline="List of class components" />
       <Product
         name="Nike Air Max"
-        price="$130"
+        price="130$"
         description="You are beautiful, unique and strong. They are too. And them. Pass it on
         in the Nike Air Max Verona"
         img={nikeImg}
       />
       <Product
         name="Air Max 2090"
-        price="$150"
+        price="150$"
         description="It combines a Nike Worldwide crest with a galactic design of swirling, no-sew skins that have transparent finishes for added depth."
         img={nikeImg2}
       />
       <Product
         name="Air Max 270 React"
-        price="$100"
+        price="100$"
         description=" The design draws inspiration from the Air Max pantheon while celebrating the unity of sport."
         img={nikeImg3}
       />

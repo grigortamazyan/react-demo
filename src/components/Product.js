@@ -10,7 +10,7 @@ class Product extends Component {
       <div className="Product">
         <Name data={name} />
         <img src={this.props.img} width="300px" alt="img" />
-        <Price data={price} />
+        <Price data={price} rate={478}/>
         <Description data={description} />
         <p></p>
         <Button text="buy now" />
